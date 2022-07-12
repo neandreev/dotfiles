@@ -252,6 +252,10 @@ local astro_plugins = {
     event = { "InsertLeave", "TextChanged" },
     config = function() require "configs.autosave" end,
   },
+
+  ["wakatime/vim-wakatime"] = {
+    module = "wakatime",
+  },
 }
 
 if astronvim.updater.snapshot then
