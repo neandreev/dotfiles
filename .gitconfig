@@ -1,0 +1,8 @@
+[user]
+	email = mail@neandreev.ru
+	name = Danila Andreev
+[alias]
+	co = checkout
+	rb = branch
+	ci = commit
+	st = status
