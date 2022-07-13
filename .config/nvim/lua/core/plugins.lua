@@ -248,14 +248,21 @@ local astro_plugins = {
     config = function() require "configs.session_manager" end,
   },
 
+  -- File Autosave
   ["Pocco81/AutoSave.nvim"] = {
     event = { "InsertLeave", "TextChanged" },
     config = function() require "configs.autosave" end,
   },
 
+  -- WakaTime Plugin
   ["wakatime/vim-wakatime"] = {
     module = "wakatime",
   },
+
+  -- GitHub Theme
+  ["projekt0n/github-nvim-theme"] = {
+    config = function() require "configs.githubtheme" end,
+  }
 }
 
 if astronvim.updater.snapshot then
