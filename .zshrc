@@ -24,6 +24,7 @@ antigen bundle node
 antigen bundle sudo
 antigen bundle web-search
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle asdf
 
 antigen theme romkatv/powerlevel10k
 
