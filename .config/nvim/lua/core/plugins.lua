@@ -267,6 +267,10 @@ local astro_plugins = {
   -- Doom-One Theme
   ["NTBBloodbath/doom-one.nvim"] = {},
 
+  -- nvim-transparent
+  ["xiyaowong/nvim-transparent"] = {
+    config = function() require "configs.transparent" end,
+  },
 }
 
 if astronvim.updater.snapshot then
