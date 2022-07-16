@@ -262,7 +262,11 @@ local astro_plugins = {
   -- GitHub Theme
   ["projekt0n/github-nvim-theme"] = {
     config = function() require "configs.githubtheme" end,
-  }
+  },
+
+  -- Doom-One Theme
+  ["NTBBloodbath/doom-one.nvim"] = {},
+
 }
 
 if astronvim.updater.snapshot then
