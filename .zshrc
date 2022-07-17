@@ -42,17 +42,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# The next line updates PATH for Yandex Cloud CLI.
-if [ -f '/home/neandreev/yandex-cloud/path.bash.inc' ]; then source '/home/neandreev/yandex-cloud/path.bash.inc'; fi
-
-# The next line enables shell command completion for yc.
-if [ -f '/home/neandreev/yandex-cloud/completion.zsh.inc' ]; then source '/home/neandreev/yandex-cloud/completion.zsh.inc'; fi
-
-
 # pnpm
 export PNPM_HOME="/home/neandreev/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-# pnpm endexport GPG_TTY=$(tty)
 
 # bun completions
 [ -s "/home/neandreev/.bun/_bun" ] && source "/home/neandreev/.bun/_bun"
