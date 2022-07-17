@@ -267,6 +267,9 @@ local astro_plugins = {
   -- Doom-One Theme
   ["NTBBloodbath/doom-one.nvim"] = {},
 
+  -- OneDark theme
+  ["navarasu/onedark.nvim"] = {},
+
   -- nvim-transparent
   ["xiyaowong/nvim-transparent"] = {
     config = function() require "configs.transparent" end,

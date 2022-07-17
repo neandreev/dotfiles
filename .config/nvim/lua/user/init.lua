@@ -19,7 +19,7 @@ local config = {
 
   -- Set colorscheme
   -- colorscheme = "default_theme",
-  colorscheme = "doom-one",
+  colorscheme = "onedark",
 
   -- Override highlight groups in any theme
   highlights = {
