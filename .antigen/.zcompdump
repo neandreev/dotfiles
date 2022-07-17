@@ -852,7 +852,7 @@ _comps=(
 'ntalk' '_other_accounts'
 'numfmt' '_numfmt'
 'nvim' '_vim'
-'nvm' '_bash_complete -o default -F __nvm'
+'nvm' '_nvm'
 'objdump' '_objdump'
 'od' '_od'
 'ogg123' '_vorbis'
