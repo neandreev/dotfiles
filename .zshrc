@@ -25,6 +25,7 @@ alias pscale="docker run -e HOME=/tmp -v $HOME/.config/planetscale:/tmp/.config/
 alias rmf="rm -rf"
 alias m="make"
 alias tn="tmux new-session"
+alias vpnstart="wsl.exe -d wsl-vpnkit service wsl-vpnkit start"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
