@@ -1,6 +1,6 @@
 # Requirements for dotfiles:
 
- - Installed packages: git, neovim, tmux, zsh
+ - Installed packages: git, neovim, tmux, zsh, unzip
  - Installed oh-my-zsh:
  ```
  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
