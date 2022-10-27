@@ -43,3 +43,4 @@ export BUN_INSTALL="/home/neandreev/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 eval "$(starship init zsh)"
+eval "wsl.exe -d wsl-vpnkit --cd /app service wsl-vpnkit start"
