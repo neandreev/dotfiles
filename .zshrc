@@ -1,5 +1,6 @@
 # Aliases
 alias rmf="rm -rf"
+alias c="clear"
 alias m="make"
 alias tn="tmux new-session"
 
