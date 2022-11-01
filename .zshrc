@@ -8,6 +8,7 @@ alias tn="tmux new-session"
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export BAT_THEME="Nord"
+export BROWSER="wslview"
 
 # Initializing Node Version Manager
 source /usr/share/nvm/init-nvm.sh
