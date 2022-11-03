@@ -16,6 +16,9 @@ source /usr/share/nvm/init-nvm.sh
 # Initializing Antigen.zsh
 source ~/.antigen/antigen.zsh
 
+# Initializing wsl-vpnkit
+source ~/.vpn.sh
+
 antigen use oh-my-zsh
 
 antigen bundle git
@@ -31,5 +34,4 @@ antigen apply
 
 # Evals
 eval "$(starship init zsh)"
-eval "wsl.exe -d wsl-vpnkit --cd /app service wsl-vpnkit start"
 
