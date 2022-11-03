@@ -13,6 +13,11 @@ export BROWSER="wslview"
 # Initializing Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
+# Initializing pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # Initializing Antigen.zsh
 source ~/.antigen/antigen.zsh
 
