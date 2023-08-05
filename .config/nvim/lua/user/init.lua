@@ -239,7 +239,8 @@ local config = {
       },
       -- WakaTime
       { "wakatime/vim-wakatime" },
-
+      -- VimBeGood
+      { "ThePrimeagen/vim-be-good" }
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
 
