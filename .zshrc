@@ -9,6 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export BAT_THEME="Nord"
 export BROWSER="wslview"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
 
 # Initializing Node Version Manager
 source /usr/share/nvm/init-nvm.sh
