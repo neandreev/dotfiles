@@ -13,3 +13,11 @@
  ```
  curl -sS https://starship.rs/install.sh | sh
  ```
+ - Installed Node Version Manager:
+ ```
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+ ```
+ - Installed Python Verson Management:
+ ```
+ curl https://pyenv.run | bash
+ ```
