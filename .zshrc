@@ -9,21 +9,18 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export BAT_THEME="Nord"
 export BROWSER="wslview"
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#222222,bg=cyan,bold,underline"
 
 # Initializing Node Version Manager
-source /usr/share/nvm/init-nvm.sh
+# source /usr/share/nvm/init-nvm.sh
 
 # Initializing pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
 
 # Initializing Antigen.zsh
 source ~/.antigen/antigen.zsh
-
-# Initializing wsl-vpnkit
-source ~/.vpn.sh
 
 antigen use oh-my-zsh
 
