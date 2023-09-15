@@ -6,3 +6,5 @@
 	br = branch
 	ci = commit
 	st = status
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
