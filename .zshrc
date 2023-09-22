@@ -3,6 +3,7 @@ alias rmf="rm -rf"
 alias c="clear"
 alias m="make"
 alias tn="tmux new-session"
+alias exp="explorer.exe ."
 
 # Exports
 export ZSH="$HOME/.oh-my-zsh"
