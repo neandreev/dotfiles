@@ -14,6 +14,10 @@ export BAT_THEME="Nord"
 export BROWSER="wslview"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa"
 
+# Enable zsh autocompletion
+autoload -Uz compinit
+compinit
+
 # Initializing Antigen.zsh
 source ~/.antigen/antigen.zsh
 
