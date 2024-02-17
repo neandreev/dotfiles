@@ -1,6 +1,6 @@
 # Requirements for dotfiles:
 
- - Installed packages: git, neovim, tmux, zsh, unzip
+ - Installed packages: git, neovim, tmux, zsh, unzip, zoxide
  - Installed basic AstroNvim configuration:
  ```
  git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
