@@ -4,7 +4,9 @@ alias c="clear"
 alias m="make"
 alias tn="tmux new-session"
 alias exp="explorer.exe ."
-
+mkcd() {
+  mkdir $1 && cd $1
+}
 # Exports
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
