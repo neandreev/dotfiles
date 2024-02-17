@@ -25,8 +25,8 @@
       "command": "scrollUpPage",
       "keys": "shift+pgup"
     },
-    { "command":
-      {
+    {
+      "command": {
         "action": "splitPane",
         "splitMode": "duplicate"
       },
@@ -62,15 +62,12 @@
         },
         "size": 11.0
       },
-      "opacity": 0,
-      "useAcrylic": false,
       "useAtlasEngine": true
     },
     "list": [
       {
         "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
         "hidden": false,
-        "icon": "D:\\Machines\\WSL\\Arch\\icon.png",
         "name": "Arch",
         "source": "Windows.Terminal.Wsl"
       },
@@ -78,7 +75,7 @@
         "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "hidden": false,
-        "name": "PowerShell"
+        "name": "Windows PowerShell"
       },
       {
         "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -91,16 +88,33 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{e636fd95-8db6-56fc-969f-5647553fa92b}",
-        "hidden": true,
-        "name": "wsl-vpnkit",
-        "source": "Windows.Terminal.Wsl"
       }
     ]
   },
   "schemes": [
+    {
+      "background": "#1B1E28",
+      "black": "#1B1E28",
+      "blue": "#DDFFFF",
+      "brightBlack": "#ACCDFF",
+      "brightBlue": "#D7FFFF",
+      "brightCyan": "#D7FFFF",
+      "brightGreen": "#E4C7FF",
+      "brightPurple": "#C5E9FF",
+      "brightRed": "#679DFF",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FAC2FF",
+      "cursorColor": "#B473FF",
+      "cyan": "#DDFFFF",
+      "foreground": "#ACCDFF",
+      "green": "#E4C7FF",
+      "name": "Poimandres",
+      "purple": "#C5E9FF",
+      "red": "#679DFF",
+      "selectionBackground": "#7CB424",
+      "white": "#FFFFFF",
+      "yellow": "#FAC2FF"
+    },
     {
       "background": "#0C0C0C",
       "black": "#0C0C0C",
@@ -189,32 +203,9 @@
       "name": "One Half Light",
       "purple": "#A626A4",
       "red": "#E45649",
-      "selectionBackground": "#FFFFFF",
+      "selectionBackground": "#4F525D",
       "white": "#FAFAFA",
       "yellow": "#C18301"
-    },
-    {
-      "background": "#1B1E28",
-      "black": "#1B1E28",
-      "blue": "#DDFFFF",
-      "brightBlack": "#ACCDFF",
-      "brightBlue": "#D7FFFF",
-      "brightCyan": "#D7FFFF",
-      "brightGreen": "#E4C7FF",
-      "brightPurple": "#C5E9FF",
-      "brightRed": "#679DFF",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FAC2FF",
-      "cursorColor": "#B473FF",
-      "cyan": "#DDFFFF",
-      "foreground": "#ACCDFF",
-      "green": "#E4C7FF",
-      "name": "Poimandres",
-      "purple": "#C5E9FF",
-      "red": "#679DFF",
-      "selectionBackground": "#7CB424",
-      "white": "#FFFFFF",
-      "yellow": "#FAC2FF"
     },
     {
       "background": "#002B36",
@@ -258,7 +249,7 @@
       "name": "Solarized Light",
       "purple": "#D33682",
       "red": "#DC322F",
-      "selectionBackground": "#FFFFFF",
+      "selectionBackground": "#073642",
       "white": "#EEE8D5",
       "yellow": "#B58900"
     },
@@ -304,7 +295,7 @@
       "name": "Tango Light",
       "purple": "#75507B",
       "red": "#CC0000",
-      "selectionBackground": "#FFFFFF",
+      "selectionBackground": "#555753",
       "white": "#D3D7CF",
       "yellow": "#C4A000"
     },
@@ -332,62 +323,5 @@
       "yellow": "#808000"
     }
   ],
-  "showTabsInTitlebar": true,
-  "tabWidthMode": "equal",
-  "theme": "Mica",
-  "themes": [
-    {
-      "name": "Mica",
-      "tab": {
-        "background": "#FFFFFF09",
-        "showCloseButton": "always",
-        "unfocusedBackground": "#00000000"
-      },
-      "tabRow": {
-        "background": "#00000043",
-        "unfocusedBackground": "#00000043"
-      },
-      "window": {
-        "applicationTheme": "dark",
-        "useMica": true
-      }
-    },
-    {
-      "name": "legacyDark",
-      "tab": {
-        "background": null,
-        "showCloseButton": "always",
-        "unfocusedBackground": null
-      },
-      "window": {
-        "applicationTheme": "dark",
-        "useMica": false
-      }
-    },
-    {
-      "name": "legacyLight",
-      "tab": {
-        "background": null,
-        "showCloseButton": "always",
-        "unfocusedBackground": null
-      },
-      "window": {
-        "applicationTheme": "light",
-        "useMica": false
-      }
-    },
-    {
-      "name": "legacySystem",
-      "tab": {
-        "background": null,
-        "showCloseButton": "always",
-        "unfocusedBackground": null
-      },
-      "window": {
-        "applicationTheme": "system",
-        "useMica": false
-      }
-    }
-  ],
-  "useAcrylicInTabRow": false
+  "themes": []
 }
