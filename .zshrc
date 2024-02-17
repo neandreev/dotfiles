@@ -47,3 +47,6 @@ precmd_functions+=(keep_current_path)
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# asdf
+. /opt/asdf-vm/asdf.sh
