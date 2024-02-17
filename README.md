@@ -13,11 +13,7 @@
  ```
  curl -sS https://starship.rs/install.sh | sh
  ```
- - Installed Node Version Manager:
+ - Installed asdf:
  ```
- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
- ```
- - Installed Python Verson Management:
- ```
- curl https://pyenv.run | bash
+ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
  ```
