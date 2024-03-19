@@ -49,4 +49,4 @@ precmd_functions+=(keep_current_path)
 eval "$(zoxide init zsh)"
 
 # asdf
-. /opt/asdf-vm/asdf.sh
+. "$HOME/.asdf/asdf.sh"
