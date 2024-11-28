@@ -1,52 +1,35 @@
-# Aliases
+# aliases
 alias rmf="rm -rf"
-alias c="clear"
+alias c=""
 alias m="make"
 alias tn="tmux new-session"
-alias exp="explorer.exe ."
 mkcd() {
   mkdir $1 && cd $1
 }
-# Exports
-export ZSH="$HOME/.oh-my-zsh"
+
+# exports
 export EDITOR="nvim"
 export BAT_THEME="Nord"
-export BROWSER="wslview"
+export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa"
 
-# Enable zsh autocompletion
+# oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# zsh autocompletion
 autoload -Uz compinit
 compinit
 
-# Initializing Antigen.zsh
-source ~/.antigen/antigen.zsh
+# plugins
+plugins=(git sudo)
 
-antigen use oh-my-zsh
-
-antigen bundle git
-antigen bundle nvm
-antigen bundle npm
-antigen bundle node
-antigen bundle sudo
-antigen bundle web-search
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle asdf
-
-antigen apply
-
-# Evals
+# evals
 eval "$(starship init zsh)"
-
-# Make new tabs and panes in Terminal keep current path
-keep_current_path() {
-  printf "\e]9;9;%s\e\\" "$(wslpath -w "$PWD")"
-}
-precmd_functions+=(keep_current_path)
 
 # zoxide
 eval "$(zoxide init zsh)"
 
-# asdf
-. "$HOME/.asdf/asdf.sh"
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
