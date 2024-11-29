@@ -1,4 +1,5 @@
 # aliases
+alias g="git"
 alias c="clear"
 alias m="make"
 alias nv="nvim"
